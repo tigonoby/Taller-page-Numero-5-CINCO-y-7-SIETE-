@@ -60,6 +60,15 @@ a {
   font-weight: 500;
   transition: color 0.3s;
 }
+
+
+.nav-links a.active {
+  color: #47ba8e;
+  font-weight: bold;
+  border-bottom: 2px solid #47ba8e;
+  padding-bottom: 3px;
+}
+
 .desplegable-menu {
   position: absolute;
   top: 100%;
